@@ -1,0 +1,343 @@
+<!DOCTYPE html > 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="all">
+    <div class="posi">
+     <div class="box">
+       <div class="box1"></div>
+       <div class="box2"></div>
+     </div>
+   <div class="phone">
+    <div class="align">
+      <div class="boxx"></div>
+      <div class="head">
+        <div class="icon1"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+        <div class="Dp"></div>
+        <div class="dp-name">
+         <div class="name">Samuel Green</div>
+         <div class="available"> Available to Walk</div>
+        </div>
+        <div class="icon"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+      </div>
+    </div>
+     <div class="p_body">
+       <p class="para1"> That sounds great. I’d be happy with that.</p>
+       <p class="para2">Could you send over some pictures of your dog, please?</p>
+       <div class="image">
+        <div class="image_box"></div>
+        <div class="image_box1"></div>
+        <div class="image_box2"></div>
+       </div>
+       <p class="para3"> Here are a few pictures. She’s a happy girl!</p>
+       <p class="para4">Can you make it?</p>
+       <p class="para5">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+       <div class="walk">
+         <div class="walk1">
+           <div class="icon1"><i class="fa fa-circle" aria-hidden="true"></i></div>
+           <p class="p11"><i class="fa fa-circle-o" aria-hidden="true"></i>30 minute walk</p>
+           <p class="p22">$29</p>
+         </div>
+         <div class="walk2">
+           <div class="icon2"><i class="fa fa-circle" aria-hidden="true"></i></div>
+           <p class="p1"><i class="fa fa-circle-o" aria-hidden="true"></i>1 hour walk</p>
+           <p class="p2">$49</p>
+         </div>
+       </div>
+       <div class="type">
+         <div class="type1">Type a message…</div>
+         <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+       </div>
+     </div>  
+   </div>
+  </div>
+   <div class="dis">
+     <h2>Simple booking</h2>
+     <p> Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+       discuss arrangements and make bookings. Once the walk has been completed you can rate 
+       your walker and book again all through the chat.
+      <br> <span>code by Nilushiya</span>
+     </p>
+   </div>
+  </div>
+</body>
+</html>
+
+
+<!--:root{
+    --White: hsl(0, 0%, 100%)
+    --Light Grayish  : hsl(270, 20%, 96%)
+    --Very  Desaturated  : hsl(271, 36%, 24%)
+    --Very  : hsl(289, 100%, 72%)
+}
+body{
+    margin: 0;
+    Font-size: 16px;
+    font-weight:  400, 500, 700;
+    font-family: [Rubik]('https://fonts.google.com/specimen/Rubik');
+    height: 800px;
+}
+.all{
+    max-width: 1440px;
+    min-width: 375px;
+    background-color:hsl(270, 27%, 88%);
+    min-height: 800px;
+   
+}
+.box1{
+    max-width: 370px;
+    height: 600px;
+    background-image: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 0px 0px 250px 150px;
+}
+.box2{
+    max-width: 300px;
+    height: 600px;
+    background-color:  hsl(270, 20%, 96%);
+    position: relative;
+    left: 1050px;
+    bottom: 510px;
+    border-radius:300px 0px 0px 0px ;
+}
+.head{
+    display: flex;
+    width: 250px;
+    height: 35px;
+    
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid none;
+    align-self: center;
+    padding-right: 2px;
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-radius: 20px 20px 4px 4px;
+}
+.boxx{
+    width: 150px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid none;
+    align-self: center;
+    border-radius: 9px;
+    position: relative;
+    bottom: 7px;
+}
+.Dp{
+    border: 2px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url("/chat-app-css-illustration-master/images/avatar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2px;
+}
+.icon1{
+   align-self:center;
+   padding-left: 5px;
+   color: white;
+   position: relative;
+   bottom: 5px;
+}
+.dp-name{
+    align-self:center; 
+    padding: 2px;
+    color: white;
+}
+.name{
+    font-weight: bold;
+    font-size: 12px;
+}
+.available{
+    font-size: 8px;
+}
+.icon{
+    align-self:center;
+    padding: 5px;
+    flex: 2; 
+    color: white;
+    padding-left: 90px;
+}
+.phone{
+    width: 250px;
+    height: 550px;
+    border: 7px solid white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 280px;
+    bottom: 1150px;
+    border-radius: 20px;
+    background-color:hsl(270, 20%, 96%);
+}
+.p_body{
+    display: flex;
+    flex-direction: column;
+}
+.para1{
+    width: 180px;
+    background-color:   hsl(288, 63%, 84%);
+    border-radius: 15px 15px 15px 0px;
+    padding: 5px;
+    font-size:13px;
+    margin-left: 5px;
+}
+.para2{
+    width: 180px;
+    background-color:   hsl(288, 63%, 84%);
+    border-radius: 15px 15px 15px 0px;
+    padding: 5px;
+    font-size:13px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.image{
+    display: flex;
+    justify-content: end;
+    margin: 2px;
+    padding: 5px;
+}
+.image_box{
+    border: 2px solid white;
+    width: 38px;
+    height: 38px;
+    background-image: url("/chat-app-css-illustration-master/images/dog-image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25%;
+}
+.image_box1{
+    border: 2px solid white;
+    width: 38px;
+    height: 38px;
+    background-image: url("/chat-app-css-illustration-master/images/dog-image-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25%;
+}
+.image_box2{
+    border: 2px solid white;
+    width: 38px;
+    height: 38px;
+    background-image: url("/chat-app-css-illustration-master/images/dog-image-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25%;
+}
+.para3{
+    width: 150px;
+    background-color:    rgb(240, 140, 218);
+    border-radius: 15px 15px 0px 15px;
+    padding: 5px;
+    font-size:13px;
+    margin-top: 0;
+    align-self: flex-end;
+    margin-right: 5px;
+
+}
+.para4{
+    width: 100px;
+    background-color:   rgb(240, 140, 218);
+    border-radius: 15px 15px 15px 0px;
+    padding: 5px;
+    font-size:13px;
+    margin-top: 0;
+    align-self: flex-end;
+    margin-right: 5px;
+}
+.para5{
+    width: 180px;
+    background-color:   hsl(288, 63%, 84%);
+    border-radius: 15px 15px 15px 0px;
+    padding: 10px;
+    font-size:13px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.walk1{
+    display: flex;
+    width: 210px;
+    height: 40px;
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 20px 20px 20px 0px;
+    color: white;
+    margin-left: 5px;
+}
+.icon1{
+    flex: 1;
+    justify-self: end;
+    padding-top: 17px;
+}
+.p11{
+   
+}
+.p22{
+    flex: 1;
+    padding: 0px 30px 0px 30px;
+}
+.walk2{
+    display: flex;
+    width: 210px;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 12px;
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 20px 20px 20px 0px;
+    color: white;
+    justify-content: center;
+    margin-left: 5px;
+}
+.icon2{
+    flex: 1;
+    padding-top: 16px;
+}
+.p1{
+   padding-right: 10px;
+}
+.p2{
+    flex: 1;
+    padding: 0px 33px 0px 45px;
+}
+.type{
+   display: flex;
+   width: 230px;
+   height: 20px;
+   border: 2px solid violet;
+   background-color: white;
+   margin-top: 10px;
+   border-radius: 20px;
+   padding: 7px 0px 5px 8px;
+   margin-left: 5px;
+}
+.type :nth-child(2){
+    padding-left: 90px;
+}
+.dis{
+    width: 400px;
+    height: 400px;
+    border: 2px solid none;
+    position: relative;
+    left: 750px;
+    bottom: 1500px;
+}
+span{
+    color: hsl(0, 92%, 49%);
+}-->
+
+
