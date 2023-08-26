@@ -1,8 +1,6 @@
 body{
     margin: 0;
     Font-size: 16px;
-    font-weight:  400, 500, 700;
-    font-family: [Rubik]('https://fonts.google.com/specimen/Rubik');
     max-height:700px;
     background-color:hsl(270, 27%, 88%);
 }
@@ -56,8 +54,6 @@ body{
     height: 25px;
     border-radius: 50%;
     background-image: url("/chat-app-css-illustration-master/images/avatar.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-top: 14px;
     margin-right: 5px;
 }
@@ -167,7 +163,7 @@ body{
 .para4{
     width: 100px;
     background-color:   rgb(240, 140, 218);
-    border-radius: 15px 15px 15px 0px;
+    border-radius: 15px 15px 0px 15px;
     padding: 5px;
     font-size:13px;
     margin-top: 0;
@@ -196,9 +192,6 @@ body{
     flex: 1;
     justify-self: end;
     padding-top: 10px;
-}
-.p11{
-   
 }
 .p22{
     flex: 1;
